@@ -1,0 +1,189 @@
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+ }
+.container-fluid{
+    height: 75%;
+}
+.stats-bar {
+    background-color:rgba(0, 72, 255, 0.447);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(118, 113, 113);
+    border-radius: 5px
+}
+.player-health{
+    background-color: yellow;
+}
+.enemy-health{
+    background-color: yellow;
+}
+
+.attack-choice{
+    background-color:rgba(0, 72, 255, 0.447);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(118, 113, 113);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.messages{
+    background-color:rgba(0, 72, 255, 0.447);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(118, 113, 113);
+    border-radius: 5px
+    
+}
+.player-name{
+    background-color:rgba(0, 72, 255, 0.447);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(118, 113, 113);
+    border-radius: 5px;
+    height: 30px;
+}
+.enemy-name{
+    background-color:rgba(0, 72, 255, 0.447);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(118, 113, 113);
+    border-radius: 5px;
+    height: 30px;
+}
+.playerBar, .enemyBar{
+width:100%;
+}
+.btn-primary-leftChoice{
+    margin-right: 1%;
+}
+.btn-primary-rightChoice{
+    margin-right: 1%;
+}
+.btn-primary-left{
+    margin-right: 1%;
+}
+.btn-primary-top{
+    margin-right: 1%;
+}
+.btn-primary-right{
+    margin-right: 1%;
+}
+.btn-primary-dodge{
+    margin-right: 1%;
+}
+.super{
+    margin-right: 1%;
+}
+
+.backgroundImg{
+    background-image: url("http://smashbros-miiverse.com/images/stages/w300/arena-ferox.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33em;
+    width: 100%;
+}
+.backgroundImg2{
+    background-image: url("http://smashbros-miiverse.com/images/stages/w300/arena-ferox.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33em;
+    width: 100%;
+}
+.player-display{
+    margin-top: 20%;
+}
+.player-img{
+    margin-top: 20%;
+}
+.enemy-img{
+    margin-top: 20%;
+}
+.split-img{
+    height:50%;
+}
+.split-img2{
+    height: 100%;
+}
+/* Warrior Attack Animation */
+.knight{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/6/battle/animations/npc/critical/hector_general_axe.gif");
+}
+.knightAttack{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/6/battle/animations/npc/hector_general_axe.gif");
+}
+
+/* Lancer Attack Animation */
+.archer{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/8/battle/animations/ally/critical/neimi_sniper_bow.gif");
+}
+.archerAttack{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/8/battle/animations/ally/neimi_sniper_bow.gif");
+}
+
+/* Rogue Attack Animation */
+.rogue{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/7/battle/animations/ally/critical/jaffar_assassin_sword.gif");
+}
+.rogueAttack{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("http://www.feplanet.net/media/sprites/7/battle/animations/ally/jaffar_assassin_sword.gif");
+}
+
+/* Mage Attack Animation */
+.mage{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/7/battle/animations/enemy/critical/limstella_sage_magic.gif")
+
+}
+.mageAttack{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/7/battle/animations/enemy/limstella_sage_magic.gif");
+}
+
+/* Rider Attack Animation */
+.rider{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/8/battle/animations/ally/critical/vanessa_pegasusknight_lance.gif")
+}
+.riderAttack{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/8/battle/animations/ally/vanessa_pegasusknight_lance.gif")
+}
+
+/* Boss animations */
+/* gold dragon */
+.demonDragonAttack { 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/8/battle/animations/ally/myrrh_manakete_dragonstone.gif");
+}
+/* fairy dragon */
+.fairyDragonAttack {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("http://www.feplanet.net/media/sprites/6/battle/animations/ally/critical/fa_mamkute_breath.gif");
+}
+.cow {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("https://ndesign2.files.wordpress.com/2015/01/cow1.png")
+}

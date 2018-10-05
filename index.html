@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Tournament Outcomes</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p></p>
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <button type="button" class="btn btn-primary-continue">Save changes</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        </div>
+                      </div>
+                    </div>
+    </div>
+    <div class="container-fluid">
+            
+        <div class="row main-display">
+            <div class="col-sm-2 stats-bar">
+                <div class="row-sm name-stat">Name: </div>
+                <div class="row-sm hp-stat">Health: </div>
+                <div class="row-sm strength-stat">Strength: </div>
+                <div class="row-sm defense-stat">Defense: </div>
+                <div class="row-sm skill-stat">Skill: </div>
+                <div class="row-sm speed-stat">Speed: </div>
+                <div class="row-sm spAtk-stat">spAtk: </div>
+                <div class="row-sm spDef-stat">spDef: </div>
+                <div class="row-sm typeClass">Class: </div>
+            </div>   
+            <div class="col-sm-10 backgroundImg"> 
+                <div class="row split-img2">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 player-display"></div>
+                    <div class="col-sm-4"></div> 
+                </div>            
+            </div>
+            
+        </div>
+        
+        <div class="row choices1">
+            <div class="col-sm-6 attack-choice">
+                <button type="button" class="btn btn-primary-leftChoice btn-sm">LEFT</button>
+                <button type="button" class="btn btn-primary-rightChoice btn-sm">RIGHT</button>
+                <button type="button" class="btn btn-primary-select btn-sm">Select</button>
+            </div>
+            <div class="col-sm-6 messages">Choose your Hero!</div>
+        </div>
+    </div>
+    
+    
+
+
+   <script src='app.js'></script> 
+</body>
+</html>
